@@ -5,14 +5,13 @@
 
 // Якщо довжина рядка дорівнює або менша за maxLength, то функція повертає початковий рядок без змін.
 // Якщо довжина перевищує maxLength, то функція обрізає рядок до maxLength символів, додає трикрапку "..." в кінці та повертає обрізану версію.
-// Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
 function formatMessage(message, maxLength){
     const messageLength = message.length;
     if(messageLength <= maxLength){
         return message;
-    } else {
-        
+    } else { 
+        return message.slice(0, maxLength) + "...";
     }
 
 
