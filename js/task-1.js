@@ -24,8 +24,8 @@ function makeTransaction(quantity, pricePerDroid, customerCredits){
     }
 }
 
-console.log( "Task01:", makeTransaction(5, 3000, 23000)); 
-console.log("Task01:", makeTransaction(3, 1000, 15000)); 
-console.log("Task01:", makeTransaction(10, 5000, 8000)); 
-console.log("Task01:", makeTransaction(8, 2000, 10000)); 
-console.log("Task01:", makeTransaction(10, 500, 5000));
+console.log( "Task1:", makeTransaction(5, 3000, 23000)); 
+console.log("Task1:", makeTransaction(3, 1000, 15000)); 
+console.log("Task1:", makeTransaction(10, 5000, 8000)); 
+console.log("Task1:", makeTransaction(8, 2000, 10000)); 
+console.log("Task1:", makeTransaction(10, 500, 5000));
